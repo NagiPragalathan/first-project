@@ -69,7 +69,7 @@ for(int i=0;i<len;i++){
 return sums;
 }
 char *inputs(char a[]){
-static char b[0]="ashgh";
+static char b[6]="ashgh";
 printf("%s",a);
 return b;
 }
