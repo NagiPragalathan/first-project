@@ -17,5 +17,5 @@ int main()
  else
  printf("\nElement not found");
 
- return 0;
+ return 1;
 }
