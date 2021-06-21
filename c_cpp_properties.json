@@ -1,0 +1,77 @@
+{
+    "env": {
+        "myDefaultIncludePath": [
+            "${workspaceFolder}",
+            "${workspaceFolder}/include/**"
+        ],
+        "myCompilerPath": "/usr/bin/gcc"
+    },
+    "configurations": [
+        {
+            "name": "Linux",
+            "intelliSenseMode": "linux-clang-x86",
+            "includePath": [
+                "${workspaceFolder}",
+                "/usr/include/gtk-3.0",
+                "/usr/include/at-spi2-atk/2.0",
+                "/usr/include/at-spi-2.0",
+                "/usr/include/dbus-1.0",
+                "/usr/lib/x86_64-linux-gnu/dbus-1.0/include",
+                "/usr/include/gio-unix-2.0/**",
+                "/usr/include/cairo",
+                "/usr/include/pango-1.0",
+                "/usr/include/harfbuzz",
+                "/usr/include/pango-1.0",
+                "/usr/include/fribidi",
+                "/usr/include/atk-1.0",
+                "/usr/include/pixman-1",
+                "/usr/include/freetype2",
+                "/usr/include/libpng16",
+                "/usr/include/gdk-pixbuf-2.0",
+                "/usr/include/libmount",
+                "/usr/include/blkid",
+                "/usr/include/uuid",
+                "/usr/include/glib-2.0",
+                "/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+                "/usr/include/x86_64-linux-gnu"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "configurationProvider": "ms-vscode.makefile-tools"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "linux-clang-x86",
+            "includePath": [
+                "${workspaceFolder}",
+                "C:\\msys64\\mingw64\\include/gtk-3.0",
+                "C:\\msys64\\mingw64\\include/cairo",
+                "C:\\msys64\\mingw64\\include/pango-1.0",
+                "C:\\msys64\\mingw64\\include/harfbuzz",
+                "C:\\msys64\\mingw64\\include/pango-1.0",
+                "C:\\msys64\\mingw64\\include/fribidi",
+                "C:\\msys64\\mingw64\\include/atk-1.0",
+                "C:\\msys64\\mingw64\\include/pixman-1",
+                "C:\\msys64\\mingw64\\include/freetype2",
+                "C:\\msys64\\mingw64\\include/libpng16",
+                "C:\\msys64\\mingw64\\include/gdk-pixbuf-2.0",
+                "C:\\msys64\\mingw64\\include/glib-2.0",
+                "C:\\msys64\\mingw64\\lib\\glib-2.0\\include"
+            ],
+            "compilerPath": "C:\\msys64\\mingw64/bin/gcc",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
